@@ -6,6 +6,19 @@
 a{
     color: white;
 }
+.rel{
+    position: relative;
+}
+/* #over{
+    position: absolute;
+    top: 3840px;
+    margin: 20px;
+    display: none;
+}
+#over:hover{
+    display: block;
+} */
+
 .borde{
     border: 1px solid orange;
     border-color: orange;
