@@ -32,7 +32,8 @@ a{
     border-color: orange;
 }
 .first{
-    background-image: url('images/hero-bg.jpg' );
+    /* background-image: url('images/hero-bg.jpg' ); */
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),  url('images/hero-bg.jpg' );
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -45,11 +46,9 @@ a{
     font-size: 45px;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(0,0,0,0.6);
+    /* background-color: rgb(0,0,0,0.6); */
 }
-.digits{
-    background-color: rgb(0,0,0,0.6);
-}
+
 .two{
     font-size: 19px;
 
