@@ -19,6 +19,14 @@ a{
     display: block;
 } */
 
+.port img{
+    filter: brightness(100%);
+}
+.port img:hover{
+    filter: brightness(50%);
+    transform: scale(1.08);
+    transition: 0.5s ease-in;
+}
 .borde{
     border: 1px solid orange;
     border-color: orange;
@@ -83,7 +91,8 @@ a{
 } */
 
 .third{
-    background-image: url('images/testimonials-bg.jpg');
+    /* background-image: url('images/testimonials-bg.jpg'); */
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('images/testimonials-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
