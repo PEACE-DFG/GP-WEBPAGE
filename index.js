@@ -1,6 +1,9 @@
 
+
 function mouseover(){
     document.getElementById('home').style.color="red"
+  
+
 }
 function mouseout(){
     document.getElementById('home').style.color="white"
@@ -44,11 +47,4 @@ function mouseoutw(){
     document.getElementById('contact').style.color="white"
 }
 
-// function text(){
-//     document.getElementById('over').style.display="block"
-//     document.getElementById('over').style.position="absolute"
-// }
-// function disappear(){
-//     document.getElementById('over').style.display="none"
 
-// }
